@@ -1,4 +1,4 @@
-# AI Knowledge Graphs
+# AI 프로젝트 아카이브
 
 **보기: https://sunmi-park-private.github.io/ai-knowledge-graphs/**
 
