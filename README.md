@@ -1,4 +1,4 @@
-# AI 프로젝트 아카이브
+# 박선미 AI Project Archive
 
 **보기: https://sunmi-park-private.github.io/ai-knowledge-graphs/**
 
