@@ -15,6 +15,18 @@
 | [FestaOn](festaon/) | 관광데이터 공모전 웹·앱 구현 부문 | 12,458 | 32,917 | 386 | 교환권·어뷰즈 방지 모듈 사이의 순환 참조를 찾아 다음 정리 대상으로 확정 — 개선 지점을 구조로 짚어냄 |
 
 
+## 제출 문서
+
+대외 공모전·해커톤에 제출한 문서입니다. 회사 프로젝트 문서는 공개하지 않습니다.
+
+| 프로젝트 | 문서 |
+|---|---|
+| FestaCast (한국관광공사 프롬프톤 우수상) | [결선 심사 자료](festacast/docs/FestaCast_결선심사자료.pdf) |
+| Debut Loop! | [게임소개서](debut-loop/docs/Debut-Loop_게임소개서.pdf) · [AI 활용 기술문서](debut-loop/docs/Debut-Loop_AI활용기술문서.pdf) · [팀원 역할 기술서](debut-loop/docs/Debut-Loop_팀원역할기술서.pdf) |
+| Red Horse Rescue 2026 | [게임소개서](red-horse-rescue/docs/RedHorseRescue_게임소개서.pdf) · [AI 활용 기술문서](red-horse-rescue/docs/RedHorseRescue_AI활용기술문서.pdf) |
+| TravelZip | [기능설명서](travel-zip/docs/TravelZip_기능설명서.pdf) |
+| FestaOn | [기능설명서](festaon/docs/FestaOn_기능설명서.pdf) |
+
 ## 데모 영상
 
 썸네일을 누르면 YouTube에서 재생됩니다. [Pages 첫 화면](https://sunmi-park-private.github.io/ai-knowledge-graphs/)에서는 페이지 안에서 바로 재생됩니다.
