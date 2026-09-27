@@ -27,6 +27,9 @@
   .links a:hover{text-decoration:underline}
   .video{position:relative;aspect-ratio:16/9;border-radius:10px;overflow:hidden;background:#000}
   .video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .preview{display:block;position:relative;aspect-ratio:16/9;border-radius:10px;overflow:hidden;border:1px solid var(--line)}
+  .preview img{width:100%;height:100%;object-fit:cover;display:block}
+  .preview span{position:absolute;right:8px;bottom:8px;background:rgba(0,0,0,.65);color:#fff;font-size:12px;padding:3px 8px;border-radius:6px}
   .note{margin-top:40px;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px}
 </style>
 </head>
@@ -67,6 +70,7 @@
       <h3>FestaCast</h3>
       <div class="meta"><span class="tag">한국관광공사 프롬프톤 우수상(사장상)</span>1인 참가</div>
       <p class="find">축제 개최 전에 흥행 가능성을 진단하는 7노드 Phase Gate 멀티에이전트. 지역 코드 조회만 Opus, 나머지 6노드는 Haiku로 진단 1건 $0.6. 이 주제가 FestaOn 지정과제로 이어짐</p>
+      <a class="preview" href="festacast/docs/FestaCast_결선심사자료.pdf"><img src="festacast/docs/preview.jpg" alt="FestaCast 결선 심사 자료 표지" loading="lazy"><span>PDF 열기</span></a>
       <div class="links"><a href="festacast/docs/FestaCast_결선심사자료.pdf">결선 심사 자료</a></div>
     </article>
     <article class="card">
