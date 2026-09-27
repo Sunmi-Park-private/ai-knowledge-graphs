@@ -1,6 +1,6 @@
 # 박선미 AI Project Archive
 
-**보기: https://sunmi-park-private.github.io/ai-knowledge-graphs/**
+**보기: https://sunmi-park-private.github.io/ai-project-archive/**
 
 [graphify](https://pypi.org/project/graphifyy/)로 만든 AI 프로젝트 7개의 코드·문서 지식그래프입니다. 코드는 구문 분석(AST)으로, 설계·운영 문서는 의미 추출로 노드와 엣지를 만들고 커뮤니티를 탐지했습니다.
 
@@ -29,7 +29,7 @@
 
 ## 데모 영상
 
-썸네일을 누르면 YouTube에서 재생됩니다. [Pages 첫 화면](https://sunmi-park-private.github.io/ai-knowledge-graphs/)에서는 페이지 안에서 바로 재생됩니다.
+썸네일을 누르면 YouTube에서 재생됩니다. [Pages 첫 화면](https://sunmi-park-private.github.io/ai-project-archive/)에서는 페이지 안에서 바로 재생됩니다.
 
 | SceneStealer (사내 AI JAM 1등) | Debut Loop! (NHN×AI 해커톤 예선 입상) |
 |---|---|
