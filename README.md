@@ -36,6 +36,9 @@
 | [![SceneStealer 데모](https://img.youtube.com/vi/3kf9y-sJO7U/hqdefault.jpg)](https://youtu.be/3kf9y-sJO7U) | [![Debut Loop! 게임플레이](https://img.youtube.com/vi/YL6snM3RfzM/hqdefault.jpg)](https://youtu.be/YL6snM3RfzM) |
 | **Red Horse Rescue 2026 (NHN×AI 해커톤 본선)** | **Game Hit Hunter (Databricks APJ Hackathon 2026)** |
 | [![Red Horse Rescue 게임플레이](https://img.youtube.com/vi/ugOV7KuEAW8/hqdefault.jpg)](https://youtu.be/ugOV7KuEAW8) | [![Game Hit Hunter 데모](https://img.youtube.com/vi/gwZUOpO1z5o/hqdefault.jpg)](https://youtu.be/gwZUOpO1z5o) |
+| **TravelZip 웹 데모** | **FestaOn 웹 데모** |
+| [![TravelZip 웹 데모](https://img.youtube.com/vi/B8kxFammkQs/hqdefault.jpg)](https://youtu.be/B8kxFammkQs) | [![FestaOn 웹 데모](https://img.youtube.com/vi/I1GjR3etO2g/hqdefault.jpg)](https://youtu.be/I1GjR3etO2g) |
+| [모바일 데모 (Shorts)](https://youtube.com/shorts/-qPWIYVy01c) | [모바일 데모 (Shorts)](https://youtube.com/shorts/ZV9MNRyYCuc) |
 
 각 폴더: `graph.html`(대화형 그래프, 브라우저로 열기) · `report.md`(허브·커뮤니티·연결 요약)
 
