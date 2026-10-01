@@ -30,6 +30,11 @@
   .preview{display:block;position:relative;aspect-ratio:16/9;border-radius:10px;overflow:hidden;border:1px solid var(--line)}
   .preview img{width:100%;height:100%;object-fit:cover;display:block}
   .preview span{position:absolute;right:8px;bottom:8px;background:rgba(0,0,0,.65);color:#fff;font-size:12px;padding:3px 8px;border-radius:6px}
+  .desc{font-size:14.5px;margin:0}
+  .facts{margin:0;padding:0;list-style:none;font-size:13.5px;display:flex;flex-direction:column;gap:4px}
+  .facts b{color:var(--accent);font-weight:700;margin-right:6px}
+  .gnote{font-size:12.5px;color:var(--muted);border-top:1px dashed var(--line);padding-top:8px;margin:0}
+  .gnote b{color:var(--ink);font-weight:600}
   .note{margin-top:40px;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px}
 </style>
 </head>
@@ -42,23 +47,26 @@
   <div class="grid">
     <article class="card">
       <h3>UACOS</h3>
-      <div class="meta"><span class="tag">사내 AI JAM 1·2등 제품 통합</span>UA 크리에이티브 운영체제</div>
-      <div class="nums"><span><b>1,030</b>노드</span><span><b>1,477</b>엣지</span><span><b>72</b>커뮤니티</span></div>
-      <p class="find">가장 많이 연결된 문서가 용어집 — 팀이 쌓아 온 용어 정의가 설계 문서 전반을 하나로 잇는 공통 기준이 되고 있음</p>
+      <div class="meta"><span class="tag">사내 AI JAM 1·2등 제품 통합</span>UA 크리에이티브 운영 시스템 · 2026.02~현재</div>
+      <p class="desc">모바일 게임 광고 소재의 성과를 모니터링하고, 경쟁사 분석 → 리서치 → 기획 → 제작 → 승인을 한 흐름으로 잇는 사내 웹 애플리케이션. 사내 AI JAM 1·2등 제품인 SceneStealer(제작)와 ViTag(분석)를 통합했다. Claude Code가 구현하고 사람은 디렉터로서 승인한다.</p>
+      <ul class="facts"><li><b>성과</b>월간 리포트 3일 → 2분 · 경쟁사 리서치 5일 → 3분 · 설치 누락 보정 +40.8%</li><li><b>역할</b>PM, 백엔드, 데이터 설계</li></ul>
+      <p class="gnote"><b>지식그래프</b> 노드 1,030 · 엣지 1,477 · 커뮤니티 72 — 가장 많이 연결된 문서는 용어집. 설계 문서 전반이 같은 용어 정의로 연결됨</p>
       <div class="links"><a href="uacos/graph.html">그래프 보기</a></div>
     </article>
     <article class="card">
       <h3>ViTag</h3>
-      <div class="meta"><span class="tag">사내 AI JAM 2등</span>광고 영상 자동 태깅</div>
-      <div class="nums"><span><b>1,314</b>노드</span><span><b>2,275</b>엣지</span><span><b>140</b>커뮤니티</span></div>
-      <p class="find">코드와 배포 설정 두 곳에 흩어져 있던 같은 유형의 문제(설정은 돼 있지만 실제로는 쓰이지 않음)를 한 번에 찾아내 점검 범위를 넓힘</p>
+      <div class="meta"><span class="tag">사내 AI JAM 2등 → 정식 제품</span>광고 영상 자동 태깅 · 2024.09~2026.02</div>
+      <p class="desc">광고 영상을 올리면 LLM이 캐릭터·효과음·연출·감정 같은 태그를 자동으로 추출하고, 태그별 성과·트렌드·연관 관계를 분석하는 사내 웹 애플리케이션. 사내 AI JAM 출품작(PixelPulse)에서 출발해 정식 제품으로 출시했다. 이후 운영 중인 제품에 AI 에이전트 작업 규칙을 적용했다.</p>
+      <ul class="facts"><li><b>성과</b>영상 1건 분석 1일 → 45초 · 기획부터 출시까지 60일 → 20일 · 태그 1,757건 논리 위반 0건</li><li><b>역할</b>PO·기획, 데이터 사이언티스트, 프론트엔드</li></ul>
+      <p class="gnote"><b>지식그래프</b> 노드 1,314 · 엣지 2,275 · 커뮤니티 140 — 코드와 배포 설정에 흩어진 '설정만 있고 쓰이지 않는 항목'을 한 번에 찾음</p>
       <div class="links"><a href="vitag/graph.html">그래프 보기</a></div>
     </article>
     <article class="card">
       <h3>SceneStealer</h3>
-      <div class="meta"><span class="tag">사내 AI JAM 1등</span>광고 영상 재구성·에셋 추출</div>
-      <div class="nums"><span><b>937</b>노드</span><span><b>1,824</b>엣지</span><span><b>59</b>커뮤니티</span></div>
-      <p class="find">기획 문서와 코드 사이의 연결 공백을 찾아내 "스펙마다 구현 파일을 명시한다"는 개선 방향을 도출</p>
+      <div class="meta"><span class="tag">사내 AI JAM 1등 → 정식 제품</span>광고 영상 재구성·에셋 추출 · 2025.10~2026.02</div>
+      <p class="desc">경쟁작 광고 영상을 장면 단위로 나누고, 장면마다 AI로 분석한 설명을 프롬프트로 바꿔 영상 생성 모델로 다시 만드는 사내 웹 도구. 화면 속 게임 에셋은 투명 PNG로 추출한다. 정식 제품으로 전사에 열었고, 이후 UACOS에 통합했다.</p>
+      <ul class="facts"><li><b>성과</b>실사 영상 제작 기간 40일 → 1일 · 30초 광고 제작 예산 4,200USD → 4USD</li><li><b>역할</b>에셋 추출, 프롬프트 설계, 웹 구현</li></ul>
+      <p class="gnote"><b>지식그래프</b> 노드 937 · 엣지 1,824 · 커뮤니티 59 — 기획 문서와 코드 사이의 연결 공백을 찾아 스펙마다 구현 파일을 명시하기로 함</p>
       <div class="video"><iframe src="https://www.youtube-nocookie.com/embed/3kf9y-sJO7U" title="SceneStealer 데모 영상" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
       <div class="links"><a href="scenestealer/graph.html">그래프 보기</a></div>
     </article>
